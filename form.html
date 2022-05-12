@@ -7,31 +7,48 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>WELCOME TO CV</h1>
     <form action="" method="post">
-        <p><label for="firstName">firstName</label>
-        <input type="text" name="firstName" id="firstName">
+        <h2>Please login</h2>
+        <fieldset><legend>Name</legend>
+        <p>
+            <label for="firstName">FirstName</label>
+        <input type="text" name="firstName" id="firstName" required>
+
     </p>
+<p>
+    <label for="lastname" autocapitalize="lastname" aria-autocomplete="lastname"a>Lastname</label>
+    <input type="text" name="lastname" id="lastname" required>
+</p>
+</fieldset>
 <br>
 <fieldset><legend>Gender</legend>
 <p>
-    <input type="radio" name="gender" id="" value="other">
-    <label for="gender">Gender</label>
+    <input type="radio" name="gender" id="" value="other" required>
+    <label for="gender">Other</label>
 </p>
 <p>
-    <input type="radio" name="gender" id="" value="male">
+    <input type="radio" name="gender" id="" value="male"required>
 <label for="male">Male</label>
 
 </p>
-<p><input type="radio" name="gender" id="" value="female">
+<p>
+    <input type="radio" name="gender" id="" value="female" required>
 <label for="gender">Female</label>
 </p>
 </fieldset>
+<br>
 <fieldset>
     <legend>Feed back</legend>
-    <textarea name="feedback" id="feedback" cols="60" rows="60">feedback</textarea>
+    <textarea name="feed_back" id="feed_back" cols="30" rows="10">Feed back</textarea>
 </fieldset>
 <br>
-
     </form>
+    <a href="index.html" aria-required="lastname">
+        <button type="submit">
+            Submit
+    </button>
+    </a>
+    
 </body>
-</html></p>
+</html>
