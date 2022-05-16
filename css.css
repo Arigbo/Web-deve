@@ -1,0 +1,17 @@
+
+p {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.first .heading {
+    font-weight: bold;
+   color: blue; 
+}
+.second .heading {
+    color: brown;
+}
+.third .heading {
+    color: tomato;
+}
