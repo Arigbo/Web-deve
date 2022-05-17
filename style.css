@@ -1,0 +1,11 @@
+body {
+    background-color: dimgray;
+}
+.contenter {
+    background-color: white;
+padding: 10px; ;
+}
+.address {
+    background-color: blue;
+    text-align: right;
+}
