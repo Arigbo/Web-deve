@@ -9,3 +9,25 @@ padding: 10px; ;
     background-color: blue;
     text-align: right;
 }
+<<<<<<< Updated upstream
+=======
+.header {
+    text-align: center;
+    font-weight: bold;
+     text-transform: capitalize;
+     text-decoration: solid;
+    font-size: 2rem;
+}
+.salute {
+margin: 0%;
+}
+.body {
+    font-display: justify;
+    font-style: justify;
+}
+.line {
+    height: 0.8mm;
+    width: 3mm;
+    border-color: black;
+}
+>>>>>>> Stashed changes

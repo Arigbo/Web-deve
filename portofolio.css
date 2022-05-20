@@ -1,0 +1,8 @@
+.header, .book {
+    text-align: right;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: white;
+    box-sizing: content-box;
+}
