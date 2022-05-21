@@ -1,4 +1,35 @@
+<<<<<<< Updated upstream
 p {
     border-style: dashed;
     border-width: 4px;
+=======
+.container {
+
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box {
+    height: 150px;
+    width: 200px;
+    border: 1px solid;
+}
+.box_1 {
+    height: 300px;
+    background-color: red;
+}
+.box_2 {
+    background-color: black;
+}
+.box_3 {
+    background-color: blue;
+}
+.box_4 {
+    background-color: green;
+}
+.box_5 {
+    background-color: yellow;
+>>>>>>> Stashed changes
 }

@@ -1,0 +1,43 @@
+.header {
+  border: 1px solid; 
+  flex-direction:row; 
+  align-items: flex-start;
+display: flex;
+justify-content: space-between;
+background-color: black;
+}
+nav {
+display: flex;
+list-style-type: none;
+justify-content: space-between;
+color: white;
+}
+li {
+margin: 5px;
+border:1px solid;
+}
+.box {
+    border: 1px solid;
+    background-color: blue;
+    text-align: center;
+}
+h1{text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+p {
+ padding: 5px;
+ text-align: right;
+}
+.image {
+    border: 1px solid ;
+}
+.box3 {
+    border: 1px solid ;
+    background-color:navy
+    ;
+    position: relative;
+}
+.name, .box {
+    color: aliceblue;
+}
