@@ -4,40 +4,54 @@
   align-items: flex-start;
 display: flex;
 justify-content: space-between;
-background-color: black;
+background-color: darkgray;
+
 }
 nav {
 display: flex;
 list-style-type: none;
-justify-content: space-between;
 color: white;
+text-decoration: n;
 }
+
 li {
-margin: 5px;
+margin: 6px;
 border:1px solid;
 }
-.box {
-    border: 1px solid;
-    background-color: blue;
+.hi {
+    border: 4px solid;
+    background-color:navy;
+
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
-h1{text-align: right;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px;
-}
 p {
- padding: 5px;
- text-align: right;
+    text-align: center;
+}
+
+.name, .hi{
+    color: aliceblue;
+}
+.bio {
+    border: 1px solid;
+
 }
 .image {
-    border: 1px solid ;
+    border: 2px solid ;
+
+height: 230px;
+width: 150px;
 }
-.box3 {
-    border: 1px solid ;
-    background-color:navy
-    ;
+.back {
+    background-color: black;
+    position: absolute;
+    height: 200px;
+}
+.front {
     position: relative;
-}
-.name, .box {
-    color: aliceblue;
+    right: 20px;
+    height: 220px;
+    border-top-left-radius: 12;
 }
