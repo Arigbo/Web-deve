@@ -1,57 +1,77 @@
+body {
+    background-color: black;
+}
+.container {
+    background-color: gray;
+}
 .header {
-  border: 1px solid; 
+  border: 1px solid;
+ height: 72px;
   flex-direction:row; 
-  align-items: flex-start;
-display: flex;
+display:flex;
 justify-content: space-between;
 background-color: darkgray;
+position: sticky;
+padding-top: 12px;
+top: 0px;
+}
+span {
+    font-weight: bolder;
+font-size: 25px;
 
 }
-nav {
-display: flex;
-list-style-type: none;
-color: white;
-text-decoration: n;
-}
+nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+} 
+ul {
+    display: flex;
+    justify-content: space-around;
+width: 30%;
 
-li {
-margin: 6px;
-border:1px solid;
+padding: 10px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+}
+a {
+    text-decoration: none;
 }
 .hi {
-    border: 4px solid;
+    border: 1px solid black;
     background-color:navy;
-
+   height: 330px;
+color: aliceblue;
 }
 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 40px;
+text-align: right;
+font-size: 59px;
 }
 p {
-    text-align: center;
-}
-
-.name, .hi{
-    color: aliceblue;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+   margin-left: 40px;
 }
 .bio {
     border: 1px solid;
-
+display: flex;
+justify-content: space-between;
 }
 .image {
-    border: 2px solid ;
+    height: 50vh;
+    float: left;
+}
 
-height: 230px;
-width: 150px;
-}
-.back {
-    background-color: black;
-    position: absolute;
-    height: 200px;
-}
-.front {
-    position: relative;
-    right: 20px;
-    height: 220px;
-    border-top-left-radius: 12;
-}
+
