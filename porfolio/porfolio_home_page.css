@@ -1,13 +1,52 @@
-p {
-    border-style: solid;
-    border-width: 4px;}
-div{
+.header {
+    border: 1px solid;
+   height: 72px;
+    flex-direction:row; 
+  display:flex;
+  justify-content: space-between;
+  background-color: darkgray;
+  position: sticky;
+  padding-top: 12px;
+  top: 0px;
+  }
+  span {
+      font-weight: bolder;
+  font-size: 25px;
+  }
+  nav{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+      font-weight: bolder;
+      font-size: 25px;
+      text-decoration: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  } 
+  ul {
+      display: flex;
+      justify-content: space-around;
+  width: 30%;
+  
+  padding: 10px;
+  }
+  li{
+      text-decoration: none;
+      list-style: none;
+      margin: 0px 10px 0px 10px;
+  }
+  a {
+      text-decoration: none;
+      color: aliceblue;}
+
+div .box{
 
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: row;
 }
 .box {
     height: 150px;
@@ -25,3 +64,11 @@ div{
     background-color: blue;
 }
 
+div .letter_repo {
+    border: 1px solid;
+    height: 20px;
+}
+div .letter_link {
+    border: 1px solid;
+    height: 20px;
+}
